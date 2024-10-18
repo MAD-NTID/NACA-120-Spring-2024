@@ -26,3 +26,9 @@ print("number 1 to 5")
 for num in range(5):
     #we add 1 because of the zero based counting
     print(num+1)
+
+user_input = input("Enter a sentence:")
+
+print("Each character you typed:")
+for letter in user_input:
+    print(letter)
