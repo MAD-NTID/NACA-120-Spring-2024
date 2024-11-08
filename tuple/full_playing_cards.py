@@ -4,7 +4,7 @@ import random
 #https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
 def shuffle(cards):
     for i in range(len(cards)-1,0,-1):
-        j = random.randrange(0,i)
+        j = random.randrange(0,i+1)
 
         temp = cards[i]
         cards[i] = cards[j]
