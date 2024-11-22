@@ -40,7 +40,7 @@ def main():
     turtle.speed(0)  # Fastest drawing speed
 
     # Set initial branch length and depth
-    branch_length = 150
+    branch_length = 120
     depth = 10  # You can change this value to increase or decrease the tree's depth
 
     # Draw the tree
